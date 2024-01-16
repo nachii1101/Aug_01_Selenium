@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.POM_TestCases.LoginTC">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyLoginPageTitle"/>
+          <include name="init"/>
+          <include name="verifyLoginPageURL"/>
+          <include name="verifyLoginFuctionality"/>
+          <include name="verifyLoginPageFields"/>
+        </methods>
+      </class> <!-- org.POM_TestCases.LoginTC -->
+      <class name="org.POM_TestCases.DashboardTC">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyDashboardTitle"/>
+          <include name="verifyDashboardPageTimeTrackTabsIsSelected"/>
+          <include name="login"/>
+          <include name="verifyDashboardPageURL"/>
+          <include name="verifyDashboardDisplays4Tabs"/>
+        </methods>
+      </class> <!-- org.POM_TestCases.DashboardTC -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
